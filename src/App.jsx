@@ -97,7 +97,7 @@ function App() {
         <Route 
           path='/outfits/new' element={< NewOutfit handleAddOutfit={handleAddOutfit} handleUploadPhoto={handleUploadPhoto}/>}/>
         <Route 
-          path='/profiles/:userId' element={< UserPage />}/>
+          path='/profiles/:profileId' element={< UserPage />}/>
         <Route 
           path='/profiles' element={< UserIndex />}/>
         <Route 
