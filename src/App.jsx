@@ -101,11 +101,11 @@ function App() {
         <Route 
           path='/profiles' element={< UserIndex />}/>
         <Route 
-          path='/profiles/:userId/swipes' element={< UserSwipes />}/>
+          path='/profiles/swipes' element={< UserSwipes />}/>
         <Route 
-          path='/profiles/:userId/outfits' element={< UserOutfits />}/>
+          path='/profiles/outfits ' element={< UserOutfits />}/>
         <Route 
-          path='/profiles/:userId/outfits/edit' element={< EditOutfit />}/>
+          path='/profiles/outfits/edit' element={< EditOutfit />}/>
       </Routes>
       <FooterBar user={user} />
     </>
